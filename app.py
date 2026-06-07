@@ -8,7 +8,7 @@ st.title("📡 Sistema de Alerta Temprana de Morosidad")
 st.write("Ingresa los datos financieros y de servicio del cliente para evaluar su riesgo de caer en mora (90 días).")
 
 
-modelo = joblib.load('modelo.pkl')
+modelo = joblib.load('model.pkl')
 
 
 st.subheader("Datos del Cliente")
